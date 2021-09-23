@@ -19,7 +19,7 @@ $bg-color-2: #d4d3dd;
 $bg-color-3: rgba(100,100,100, 0.5);
 $bg-color-4: rgba(255, 255, 255, 0.6);
 $bg-color-5: #eee;
-$bg-color-4
+$bg-color-6: rgba(0, 0, 0,0.1);
 
 *{
   box-sizing: border-box;
@@ -51,6 +51,7 @@ h1{
   box-shadow: 0 3px 15px $bg-color-3;
   margin: 10px;
   padding: 20px;
+  text-align: center;
 }
 .pokemon .img-container{
   background-color: $bg-color-4;
@@ -62,4 +63,17 @@ h1{
 .pokemon .img-container img{
   max-width: 90%;
   margin-top: 20px;
+}
+.pokemon .info {
+  margin-top: 20px;
+}
+.pokemon .info .number{
+  background-color: $bg-color-6;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.8em;
+}
+.pokemon .info .name{
+  margin: 15px 0 7px;
+  letter-spacing: 1px;
 }
